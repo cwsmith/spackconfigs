@@ -1,0 +1,27 @@
+compilers:
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /usr/bin/gcc
+      cxx: /usr/bin/g++
+      f77: null
+      fc: null
+    spec: gcc@centos_7.2
+    target: x86_64
+- compiler:
+    environment: {}
+    extra_rpaths: []
+    flags: {}
+    modules: []
+    operating_system: centos7
+    paths:
+      cc: /home/cwsmith/software/spack_install/linux-centos7-x86_64/gcc-centos_7.2/gcc-4.8.5-e5thlovaonheabeqkmfeugtxltzeb2ad/bin/gcc
+      cxx: /home/cwsmith/software/spack_install/linux-centos7-x86_64/gcc-centos_7.2/gcc-4.8.5-e5thlovaonheabeqkmfeugtxltzeb2ad/bin/g++
+      f77: /home/cwsmith/software/spack_install/linux-centos7-x86_64/gcc-centos_7.2/gcc-4.8.5-e5thlovaonheabeqkmfeugtxltzeb2ad/bin/gfortran
+      fc: /home/cwsmith/software/spack_install/linux-centos7-x86_64/gcc-centos_7.2/gcc-4.8.5-e5thlovaonheabeqkmfeugtxltzeb2ad/bin/gfortran
+    spec: gcc@4.8.5
+    target: x86_64
